@@ -1,5 +1,6 @@
 from pytube import Playlist
 import os
+from tqdm import tqdm
 
 playlist_url = os.environ["YT_PLAYLIST_URL"]
 output_path = os.environ["YT_DOWNLOAD_LOC"]
@@ -15,6 +16,6 @@ playlist = Playlist(playlist_url)
 # 	print(url)
 
 # download videos with the highest quality
-for video in playlist.videos:
+for video in tqdm(playlist.videos):
     print('Downloading: ', video.title)
     video.streams.get_highest_resolution().download(output_path=output_path)
