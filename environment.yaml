@@ -5,3 +5,4 @@ dependencies:
   - python=3.8.12
   - pip:
     - pytube==11.0.2
+    - tqdm
