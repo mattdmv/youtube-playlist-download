@@ -1,0 +1,7 @@
+name: pytube-only
+channels:
+  - pypi
+  - defaults
+dependencies:
+  - python=3.8.12
+  - pytube=11.0.2
