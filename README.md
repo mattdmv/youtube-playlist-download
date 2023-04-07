@@ -22,7 +22,7 @@ at.
 2. Insert (press ```I```):
 ```
 export YT_PLAYLIST_URL="<your playlist url>"
-export YT_DOWNLOAD_PATH="<path of a folder you want videos to be downloaded at>"
+export YT_DOWNLOAD_PATH="<path to a folder you want videos to be downloaded at>"
 ```
 3. Save and exit ```~/.bash_profile``` (press ```ESC```, then type ```:wq```).
 4. Execute ```vim ~/.profile``` or ```vim ~/.zprofile``` (if you are using Oh My Zsh) and insert (press ```I```):
