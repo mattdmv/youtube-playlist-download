@@ -1,6 +1,6 @@
 # Youtube playlist download script
 
-This repository contain python script that makes downloading batch of YouTube videos simple and fast.
+This repository contains python script that makes downloading batch of YouTube videos simple and fast.
 
 ## Using the script
 
